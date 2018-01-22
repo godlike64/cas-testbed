@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mama_cas',
-    'auth',
 ]
 
 MIDDLEWARE = [
