@@ -130,6 +130,7 @@ MAMA_CAS_SERVICES = [
         'SERVICE': 'http://127.0.1.1:8000',
         'CALLBACKS': [
             'mama_cas.callbacks.user_name_attributes',
+            'users.tools.test_extra',
         ],
         'LOGOUT_ALLOW': True,
         'LOGOUT_URL': 'http://127.0.1.1:8000/accounts/callback',
@@ -138,6 +139,7 @@ MAMA_CAS_SERVICES = [
         'SERVICE': 'http://127.0.2.1:8000',
         'CALLBACKS': [
             'mama_cas.callbacks.user_name_attributes',
+            'users.tools.test_extra',
         ],
         'LOGOUT_ALLOW': True,
         'LOGOUT_URL': 'http://127.0.2.1:8000/accounts/callback',

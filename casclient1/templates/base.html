@@ -32,7 +32,7 @@
                 </li>
                {% if request.user.is_authenticated %}
                 <li>
-                    <a href='#'>Hello, {{ request.user }}</a>
+                    <a href='#'>Hello, {{ request.user }}. Twitter: {{request.session.attributes.twitter}}</a>
                 </li>
                 <li>
                     <a href={% url "cas_ng_logout" %}>Log out</a>
